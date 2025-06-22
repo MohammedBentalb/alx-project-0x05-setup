@@ -8,6 +8,7 @@ const useFetchData = <T, R>() => {
   const [generatedImages, setGeneratedImages] = useState<ImageProps[]>([]);
 
   const fetchData = async (endpoint: string, body: R) => {
+    // comment
     setIsLoading(true);
     setError(null);
     try {
